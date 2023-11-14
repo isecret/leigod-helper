@@ -8,13 +8,13 @@
 
 ```bash
 # Ubuntu/Debain
-$ apt-get install -y jq
+$ sudo apt-get install -y jq
 
 # CentOS
-$ yum install -y jq
+$ sudo yum install -y jq
 
 # MacOS
-$ brew install -y jq
+$ sudo brew install -y jq
 ```
 
 克隆仓库或下载代码包并解压；
@@ -22,7 +22,7 @@ $ brew install -y jq
 ```bash
 git clone --depth=1 https://github.com/isecret/leigod-helper.git
 # 因为国内网络克隆速度不是很理想的，选择下面的
-git clone --depth=1 https://ghproxy.com/isecret/leigod-helper.git
+git clone --depth=1 https://ghproxy.com/github.com/isecret/leigod-helper.git
 ```
 
 修改配置，编辑 `leigod-helper.sh` 修改用户名和密码；
