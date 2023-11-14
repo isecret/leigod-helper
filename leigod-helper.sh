@@ -9,7 +9,7 @@ if ! command -v "jq" > /dev/null; then
     echo "缺失 jq 依赖，请执行命令手动安装";
     echo "Ubuntu: sudo apt-get install -y jq"
     echo "CentOS: sudo yum install -y jq"
-    echo "MacOS sudo brew install -y jq"
+    echo "MacOS: sudo brew install -y jq"
     exit;
 fi
 
